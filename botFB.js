@@ -4,7 +4,7 @@ const Puppeteer = require('puppeteer');
 var telegram = require('telegram-bot-api');
 
 var api = new telegram({
-        token: '957037550:AAEoKoLKKvEoHPBzC9FDfhBX3e_e_z3qEbc'
+        token: 'API'
 });
 
 const preparePageForTests = async (page) => {
